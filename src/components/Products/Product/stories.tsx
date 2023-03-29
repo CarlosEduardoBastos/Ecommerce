@@ -2,14 +2,12 @@ import { Meta, Story } from '@storybook/react/types-6-0';
 import { BrowserRouter } from 'react-router-dom';
 import { Product } from '.';
 import { ProductProps } from '.';
+import { mock } from '../mock'; 
 export default {
   title: 'Product',
   component: Product,
   args: {
-    name: 'Version history coach jacket',
-    img: 'assets/pexels-abir-hasan-1857375-removebg-preview.png',
-    price: 20,
-    newProduct: "New"
+    ...mock
   },
   argTypes: {
     children: { type: 'string' },
