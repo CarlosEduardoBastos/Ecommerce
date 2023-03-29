@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<SectionContainer /> should render 1`] = `
+exports[`<SectionContainer /> should mach snapshot 1`] = `
 .c0 {
   max-width: 85.375rem;
   margin: 0 auto;
