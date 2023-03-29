@@ -1,24 +1,25 @@
-import { Heading } from '../../Heading';
 import * as Styled from './styles';
 
 export interface ProductProps {
   to: any,
-  img: string,
-  name: string,
+  image: string,
+  title: string,
   price: number,
-  newProduct: boolean
+  newProduct?: boolean
 };
 
-export const Product = ({to, img, name, price, newProduct}:ProductProps) => {
+export const Product = ({to, image, title, price, newProduct = false}:ProductProps) => {
   return (
     <Styled.Container to={to}>
       <Styled.ImageContainer>
-        <Styled.Image src={img}/>
+        <Styled.Image src={image} alt={title}/>
       </Styled.ImageContainer>
       <Styled.Content>
         <Styled.ContentText>
-          <Styled.NewProduct>{newProduct}</Styled.NewProduct>
-          <Heading as='h4' size='medium'>{name}</Heading>
+          {newProduct && <Styled.NewProduct>New!</Styled.NewProduct>}
+          <div>
+            <Styled.Title>{title}</Styled.Title>
+          </div>
         </Styled.ContentText>
         <Styled.Price>${price}</Styled.Price>
       </Styled.Content>
