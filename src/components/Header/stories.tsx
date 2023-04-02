@@ -1,25 +1,21 @@
 import { Meta, Story } from '@storybook/react/types-6-0';
 import { BrowserRouter } from 'react-router-dom';
-import { Product } from '.';
-import { ProductProps } from '.';
-import { mock } from '../mock'; 
+import { Header } from '.';
 export default {
-  title: 'Product',
-  component: Product,
+  title: 'Header',
+  component: Header,
   args: {
-    ...mock
+    children: 'Header',
   },
   argTypes: {
     children: { type: 'string' },
   },
 }as Meta;
 
-export const Template:Story<ProductProps> = (args) => {
+export const Template:Story = (args) => {
   return (
     <BrowserRouter>
-      <div>
-        <Product {...args} />
-      </div>
+      <Header {...args} />
     </BrowserRouter>
   );
 };
