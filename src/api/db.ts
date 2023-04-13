@@ -13,7 +13,8 @@ export const data = [
       "XL",
       "2XL"
     ],
-    "image": "./assets/pexels-abir-hasan-1857375-removebg-preview.png"
+    "image": "./assets/pexels-abir-hasan-1857375-removebg-preview.png",
+    "newProduct": true
   },
   {
     "id": 1,
@@ -29,7 +30,7 @@ export const data = [
       "XL",
       "2XL"
     ],
-    "image": "./assets/pexels-artem-podrez-7048257-removebg-preview.png"
+    "image": "./assets/pexels-artem-podrez-7048257-removebg-preview.png",
   },
   {
     "id": 2,
@@ -45,7 +46,7 @@ export const data = [
       "XL",
       "2XL"
     ],
-    "image": "./assets/pexels-daniel-adesina-11351031-removebg-preview.png"
+    "image": "./assets/pexels-daniel-adesina-11351031-removebg-preview.png",
   },
   {
     "id": 3,
@@ -77,7 +78,8 @@ export const data = [
       "XL",
       "2XL"
     ],
-    "image": "./assets/pexels-elijah-o_donnell-5303044-removebg-preview.png"
+    "image": "./assets/pexels-elijah-o_donnell-5303044-removebg-preview.png",
+    "newProduct": true
   },
   {
     "id": 5,
@@ -109,7 +111,8 @@ export const data = [
       "XL",
       "2XL"
     ],
-    "image": "./assets/pexels-gustavo-almeida-3302595-removebg-preview.png"
+    "image": "./assets/pexels-gustavo-almeida-3302595-removebg-preview.png",
+    
   },
   {
     "id": 7,
@@ -189,7 +192,9 @@ export const data = [
       "XL",
       "2XL"
     ],
-    "image": "./assets/pexels-lucas-pezeta-1963234-removebg-preview.png"
+    "image": "./assets/pexels-lucas-pezeta-1963234-removebg-preview.png",
+    "newProduct": true
+
   },
   {
     "id": 12,

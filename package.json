@@ -17,6 +17,7 @@
     "react-router-dom": "^6.8.2",
     "react-scripts": "5.0.1",
     "styled-components": "^5.3.8",
+    "swiper": "^9.2.0",
     "typescript": "^4.9.5",
     "web-vitals": "^2.1.4"
   },
@@ -27,6 +28,12 @@
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 6006 -s public",
     "build-storybook": "build-storybook -s public"
+  },
+  "jest": {
+    "moduleNameMapper": {
+      "swiper/react": "swiper/react/swiper-react.js",
+      "swiper/css": "swiper/swiper.min.css"
+    }
   },
   "eslintConfig": {
     "extends": [
