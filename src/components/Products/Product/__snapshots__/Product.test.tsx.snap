@@ -34,7 +34,7 @@ exports[`<Product /> should mach snapshot 1`] = `
 .c6 {
   -webkit-text-decoration: none;
   text-decoration: none;
-  color: #000000;
+  color: #212121;
   font-size: 1.375rem;
   font-weight: 400;
   margin-left: 10px;
@@ -51,7 +51,7 @@ exports[`<Product /> should mach snapshot 1`] = `
   font-weight: 700;
   -webkit-text-decoration: none;
   text-decoration: none;
-  color: #000000;
+  color: #212121;
   font-size: 1.375rem;
 }
 

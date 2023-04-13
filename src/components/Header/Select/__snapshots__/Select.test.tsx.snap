@@ -6,7 +6,7 @@ exports[`<Select /> should mach snapshot 1`] = `
   text-decoration: none;
   text-transform: uppercase;
   font-weight: 700;
-  color: #000000;
+  color: #212121;
   border: 2px solid #000;
   border-radius: 30px;
   padding: 10px 20px 9px;

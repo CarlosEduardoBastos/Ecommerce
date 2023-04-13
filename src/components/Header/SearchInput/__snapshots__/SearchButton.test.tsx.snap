@@ -15,11 +15,11 @@ exports[`<SearchInput /> should match snapshot 1`] = `
 
 .c2 {
   width: 100%;
-  background-color: #fff;
+  background-color: #f8f8f8;
   border: none;
   font-size: 1.625rem;
   padding: 15px 30px;
-  color: #000000;
+  color: #212121;
   font-weight: 700;
 }
 
