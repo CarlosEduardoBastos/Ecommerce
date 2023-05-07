@@ -1,12 +1,1 @@
-import { Products } from "./components/Products";
-
-function App() {
-  return (
-    <div>
-      <Products />
-      
-    </div>
-  );
-}
-
-export default App;
+export {default} from "./pages/Home/index.page";
