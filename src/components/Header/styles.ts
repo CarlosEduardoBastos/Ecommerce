@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
 
 export const Container = styled.header`
   z-index: 6;
@@ -7,15 +7,20 @@ export const Container = styled.header`
 `;
 
 export const Header = styled.div`
-  padding: 30px 0;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  ${({theme}) => css`
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  `}
+  
 `;
 
 export const Nav = styled.div`
   display: flex;
-  grid-column-gap: 8px;
+  grid-column-gap: 1.2rem;
+  align-items: center;
 `;
 
 export const Logo = styled.div`
