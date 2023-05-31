@@ -18,7 +18,7 @@ describe('<NavLinkComponent />', () => {
     renderTheme(<NavLinkComponent to='/' size='small'>children</NavLinkComponent>);
     const link = screen.getByRole('link', {name: 'children'})
     expect(link).toHaveStyle({
-      'font-size': theme.fonts.sizes.small
+      'font-size': theme.fonts.sizes.xsmall
     })
   });
 

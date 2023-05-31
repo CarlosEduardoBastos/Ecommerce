@@ -4,7 +4,7 @@ import { NavLinkComponentProps } from '.';
 
 const linkSize = {
   small: (theme: DefaultTheme) => css`
-    font-size: ${theme.fonts.sizes.small};
+    font-size: ${theme.fonts.sizes.xsmall};
   `,
   big: (theme: DefaultTheme) => css`
     font-size: ${theme.fonts.sizes.large};
