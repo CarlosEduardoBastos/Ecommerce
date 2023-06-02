@@ -16,6 +16,7 @@ exports[`<Product /> should mach snapshot 1`] = `
   border-radius: 35px;
   background-color: #dadad8;
   height: 369px;
+  text-align: center;
 }
 
 .c3 {

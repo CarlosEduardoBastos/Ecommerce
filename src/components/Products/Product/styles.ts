@@ -15,6 +15,7 @@ export const ImageContainer = styled.div`
   border-radius: 35px;
   background-color: #dadad8;
   height: 369px;
+  text-align: center;
 `
 export const Content = styled.div`
   max-width: 100%;
