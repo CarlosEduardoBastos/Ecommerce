@@ -12,8 +12,9 @@ export const theme = {
     },
     sizes: {
       small: '0.875rem',
-      xsmall: '1.25rem',
-      xxsmall: '1.375rem',
+      xsmall: '1rem',
+      xxsmall: '1.25rem',
+      xxxsmall: '1.375rem',
       medium: '1.5rem',
       xmedium: '1.625rem',
       large: '2rem',

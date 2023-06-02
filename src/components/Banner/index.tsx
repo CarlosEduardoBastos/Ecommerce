@@ -13,6 +13,17 @@ import { Heading } from '../Heading';
 import { TextComponent } from '../TextComponent';
 import { Button } from '../Button';
 
+type productProps = {
+  id: number;
+    title: string;
+    description: string;
+    price: number;
+    category: string;
+    sizes: string[];
+    image: string;
+    newProduct?: boolean;
+}
+
 export const Banner = () => {
   const product = data
 
@@ -25,14 +36,14 @@ export const Banner = () => {
               modules={[Controller, Scrollbar]}
               scrollbar={{ draggable: true }}
             >
-              {product.map(({id, image, title, description, newProduct}: any) => {
+              {product.map(({id, image, title, description, newProduct}: productProps) => {
                 if(newProduct){
                   return (
                     <SwiperSlide key={id}>
                       <Styled.Text>
-                        <Heading size='big'>{title}</Heading>
+                        <Heading size="big">{title}</Heading>
                         <TextComponent>{description}</TextComponent>
-                        <div><Button to={id}>Comprar</Button></div>
+                        <div><Button to={`${id}`}>Comprar</Button></div>
                       </Styled.Text>
                       <Styled.Image>
                         <img src={image} alt={title}/>

@@ -20,7 +20,7 @@ const titleCase = (uppercase: boolean) => css`
 
 const mediaFont = (theme: DefaultTheme) => css`
   @media ${theme.media.lteMedium} {
-    font-size: ${theme.fonts.sizes.large};
+    font-size: ${theme.fonts.sizes.medium};
   }
 `
 

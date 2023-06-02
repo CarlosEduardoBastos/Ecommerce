@@ -1,5 +1,6 @@
 import styled, { css } from 'styled-components';
 import {Container as TextComponent} from '../TextComponent/styles'
+import {Container as Heading} from '../Heading/styles'
 
 
 export const Container = styled.section`
@@ -7,6 +8,10 @@ export const Container = styled.section`
     width: 100%;
     height: 100vh;
     background-color: ${theme.colors.primaryColor};
+
+    @media (max-width: 880px){
+    height: 100%;
+    }
   `}
 `;
 
@@ -16,13 +21,15 @@ export const Content = styled.div`
     align-items: center;
     justify-content: space-between;
     padding: 16px;
+    gap: 2rem;
 
     .swiper-slide {
       display: flex;
       justify-content: center;
-      flex-wrap: wrap;
       background: #fff;
       background: transparent;
+      align-items: center;
+
 
       div{
         margin: 30px 0;
@@ -32,16 +39,20 @@ export const Content = styled.div`
         display: block;
         max-width: 500px;
         margin: 15px 0;
+        font-size: 0.8rem;
       }
 
     }
+
+    @media (max-width: 460px) {
+      flex-wrap: wrap;
+    }
+    
   `}
 `;
 
 export const Text = styled.section`
-  ${({theme}) => css`
-    margin-top: 120px;
-  `}
+  
 `;
 export const Image = styled.div`
   ${({theme}) => css`
@@ -51,6 +62,13 @@ export const Image = styled.div`
       object-fit: cover;
       object-position: center;
       height: 100%;
+    }
+
+    @media (max-width: 880px){
+      img{
+        width: 80%;
+        height: 80%;
+      }
     }
   `}
 `;

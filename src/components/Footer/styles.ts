@@ -14,6 +14,10 @@ export const Info = styled.div`
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
+
+  @media ${theme.media.lteMedium} {
+    justify-content: center;
+  }
 `;
 
 export const DataContainer = styled.div`
